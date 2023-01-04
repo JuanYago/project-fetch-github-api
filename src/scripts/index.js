@@ -54,9 +54,6 @@ function validateEmptyInput(userName) {
     user.setRepositories(repositoriesResponse)
     user.setEvents(eventsResponse)
     screen.renderUser(user)
-    // console.log(user)
-
-
 }
 
 
